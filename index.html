@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>google</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        *{
+        font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+        <main>
+            <form action="https://www.google.com/search" target="_blank">
+            <label for="search" class="aaa">Search text:</label>
+            <input type="text" id="search" name="q" placeholder="Google Search">
+            <label for="time" class="aaa">The Was Updated In:</label>
+            <select  id="time" name="as_qdr">
+                <option value="d">today</option>
+                <option value="w">7 days</option>
+                <option value="m" >month</option>
+                <option value="y">year</option>
+            </select>
+            <label for="vehicle1" value="lang_iw" class="aaa">Search only pages written in hebrew</label>
+            <input type="checkbox" id="vehicle1" name="lr" >
+            <label for="number" class="aaa">Number of result</label>
+            <input type="number" id="number" name="num">
+            <input type="submit" value="Ask Google" id="dds" style="border-color: black;color: green;border-radius:10px ;">
+            </form>
+        </main>
+    </body>
+</html>
